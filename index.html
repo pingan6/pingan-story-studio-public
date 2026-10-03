@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="平安科技 AI 短剧创作工作台。从剧本到分镜，从角色资产到视频生成，让创作有清晰的下一步。">
+  <meta name="theme-color" content="#2934b3">
+  <title>平安科技 · AI 短剧创作工作台</title>
+  <link rel="icon" href="assets/pingan-mark.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/inter-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/instrument-serif-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="landing.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="主导航">
+      <a class="brand" href="#home" aria-label="平安科技，返回首页"><img src="assets/pingan-mark.svg" width="28" height="28" alt=""><span>平安科技</span></a>
+      <div class="nav-links" id="navigation"><a href="#features">创作能力</a><a href="#workflow">工作流程</a><a href="#scenarios">适用场景</a><a href="#faq">常见问题</a></div>
+      <a class="nav-cta" data-workspace-link href="gallery.html" target="_top">查看原型 <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="展开导航菜单" aria-controls="navigation" aria-expanded="false"><span></span><span></span></button>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-landscape" src="assets/supaste-landscape.webp" width="2752" height="1536" alt="" aria-hidden="true">
+      <div class="hero-copy page-container">
+        <p class="eyebrow hero-eyebrow"><span class="live-dot" aria-hidden="true"></span> AI 短剧创作工作台</p>
+        <h1 id="hero-title">一个故事。<em lang="en">Every frame, a possibility.</em></h1>
+        <p class="hero-description">从剧本到分镜，从角色资产到视频生成。<br class="desktop-break">把创作串成一条流，让每一个灵感，都有清晰的下一步。</p>
+        <div class="hero-actions"><a class="button button-dark" data-workspace-link href="gallery.html" target="_top">查看界面原型 <span aria-hidden="true">↗</span></a><a class="hero-secondary" href="#workflow">探索创作流程 <span aria-hidden="true">↓</span></a></div>
+        <p class="hero-microcopy">剧本拆解 <span>·</span> 资产复用 <span>·</span> 分镜生成</p>
+      </div>
+      <div class="workspace-preview">
+        <div class="browser-bar"><span class="browser-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="browser-label">平安科技 / 创作空间</span><span class="browser-bar-icon" aria-hidden="true">↗</span></div>
+        <img class="workspace-image" src="assets/workspace.jpg" width="1280" height="720" alt="平安科技本机测试工作台：项目管理页展示添加项目和待检查分镜的项目卡片">
+      </div>
+      <p class="preview-caption">你的灵感，有了自己的工作空间。</p>
+    </section>
+
+    <section class="capabilities page-container" aria-label="核心创作能力">
+      <p>让每个创作环节，自然衔接。</p>
+      <div class="capability-tags"><span><b aria-hidden="true">▤</b> 剧本拆解</span><span><b aria-hidden="true">⌘</b> 分镜编排</span><span><b aria-hidden="true">◇</b> 角色资产</span><span><b aria-hidden="true">▻</b> 视频生成</span></div>
+    </section>
+
+    <section class="features section page-container" id="features" aria-labelledby="features-title">
+      <div class="section-heading"><p class="eyebrow">MADE FOR YOUR NEXT STORY</p><h2 id="features-title">让创作，<br><span class="serif-cn">井然有序。</span></h2><p>把复杂的创作过程，拆成可以推进的每一步。<br>从第一行剧本，到每一个镜头，都在同一个工作空间。</p></div>
+      <div class="bento-grid">
+        <article class="feature-card feature-large story-card">
+          <div class="feature-copy"><span class="feature-index">01 / STORY TO SHOT</span><h3>从故事到镜头</h3><p>上传剧本，拆解场景与镜头。检查和确认分镜，<br class="desktop-break">让叙事节奏在生成之前就清晰可见。</p></div>
+          <div class="story-demo" aria-label="剧本拆解到分镜的 HTML 流程示意">
+            <div class="demo-topline"><span><i class="tiny-purple-dot"></i> 故事工作区</span><span class="demo-badge">流程示意</span></div>
+            <div class="script-page"><div class="script-label">SCENE 01 <span>傍晚 · 城市天台</span></div><p>天色渐暗。她推开天台的门，<br>在城市的风里，听见熟悉的旋律。</p><div class="script-lines"><i></i><i></i><i></i></div><span class="script-note">从文字出发，构建镜头</span></div>
+            <div class="flow-connector" aria-hidden="true">↓</div>
+            <div class="shot-list"><div><span class="shot-number">01</span><p>天台远景<small>环境建立 · 全景</small></p><span class="shot-duration">检查分镜</span></div><div><span class="shot-number">02</span><p>推开天台的门<small>动作衔接 · 中景</small></p><span class="shot-duration">检查分镜</span></div></div>
+          </div>
+        </article>
+        <article class="feature-card feature-large character-card">
+          <div class="feature-copy"><span class="feature-index">02 / REUSABLE ASSETS</span><h3>让角色贯穿始终</h3><p>集中管理角色、场景和道具。复用已确认的资产，<br class="desktop-break">让每次创作都从同一份视觉参考出发。</p></div>
+          <div class="asset-demo" aria-label="角色、场景和道具复用的 HTML 界面示意">
+            <div class="demo-topline"><span><i class="tiny-purple-dot"></i> 项目资产库</span><span class="demo-badge">流程示意</span></div>
+            <div class="asset-tabs"><span class="active">角色</span><span>场景</span><span>道具</span></div>
+            <div class="asset-profile"><div class="profile-symbol" aria-hidden="true"><svg viewBox="0 0 100 112" fill="none"><circle cx="50" cy="39" r="19" stroke="currentColor" stroke-width="2"/><path d="M17 105V95a33 33 0 0 1 66 0v10" stroke="currentColor" stroke-width="2"/><path d="M8 12h15M8 12v15M92 12H77M92 12v15M8 105h15M8 105V90M92 105H77M92 105V90" stroke="currentColor"/></svg></div><div class="profile-info"><span class="asset-status">已确认的角色资产</span><strong>故事主角</strong><p>人物设定 · 视觉参考 · 资产版本</p><div class="asset-pills"><span>角色参考</span><span>统一复用</span></div></div></div>
+            <div class="asset-reuse"><span class="reuse-line" aria-hidden="true"></span><span>镜头 01</span><span>镜头 02</span><span>镜头 03</span></div><p class="demo-footnote">同一资产，连接不同镜头</p>
+          </div>
+        </article>
+        <article class="feature-card feature-small"><div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M8 5v14M16 5v14M3 10h5M3 14h5M16 10h5M16 14h5"/></svg></div><h3>镜头级控制</h3><p>逐镜头检查描述与参考资产，<br>准备、确认，再推进视频生成。</p><span class="small-card-note">每一帧，都有清晰的依据 <span aria-hidden="true">↗</span></span></article>
+        <article class="feature-card feature-small"><div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 7h8M8 17h8M12 7v10M8 7V4M16 7V4M8 20v-3M16 20v-3"/><rect x="4" y="7" width="4" height="4" rx="1"/><rect x="16" y="13" width="4" height="4" rx="1"/><path d="M6 11v4h6M18 13V9h-6"/></svg></div><h3>多模型接入</h3><p>根据已配置的模型供应商，<br>选择适合当前任务的生成能力。</p><span class="small-card-note">图像与视频，各取所长 <span aria-hidden="true">↗</span></span></article>
+      </div>
+    </section>
+
+    <section class="workflow section" id="workflow" aria-labelledby="workflow-title">
+      <div class="page-container"><div class="section-heading centered"><p class="eyebrow">A CLEAR PATH FROM IDEA TO FRAME</p><h2 id="workflow-title">四步，<span class="serif-cn">把灵感向前推进。</span></h2><p>创作有自己的节奏。每一步都能检查，每一步都由你决定。</p></div>
+        <div class="workflow-grid">
+          <article class="workflow-step"><div class="step-head"><span>01</span><span aria-hidden="true">↗</span></div><div class="step-art script-art" aria-hidden="true"><div><span>剧本.txt</span><i></i><i></i><i></i><b>TXT / DOCX</b></div></div><h3>上传剧本</h3><p>创建项目，导入你的故事。<br>从完整剧本开始组织创作。</p></article>
+          <article class="workflow-step"><div class="step-head"><span>02</span><span aria-hidden="true">↗</span></div><div class="step-art storyboard-art" aria-hidden="true"><i><b>01</b></i><i><b>02</b></i><i><b>03</b></i><i><b>04</b></i></div><h3>拆分与确认分镜</h3><p>检查拆解出的场景与镜头，<br>确认内容后继续下一步。</p></article>
+          <article class="workflow-step"><div class="step-head"><span>03</span><span aria-hidden="true">↗</span></div><div class="step-art assets-art" aria-hidden="true"><i>角色</i><i>场景</i><i>道具</i></div><h3>生成资产图</h3><p>准备角色、场景与道具参考，<br>生成并确认可复用的视觉资产。</p></article>
+          <article class="workflow-step"><div class="step-head"><span>04</span><span aria-hidden="true">↗</span></div><div class="step-art video-art" aria-hidden="true"><div><span>▶</span><i></i><b>准备 → 确认 → 生成</b></div></div><h3>准备并生成视频</h3><p>先检查镜头与生成配置，<br>确认准备结果后，发起视频生成。</p></article>
+        </div>
+        <p class="workflow-note"><span aria-hidden="true">↳</span> 准备是整理和检查生成条件；生成是确认之后执行模型任务。</p>
+      </div>
+    </section>
+
+    <section class="scenarios section page-container" id="scenarios" aria-labelledby="scenarios-title">
+      <div class="section-heading scenario-heading"><div><p class="eyebrow">ROOM FOR EVERY CREATOR</p><h2 id="scenarios-title">为创作者，<br><span class="serif-cn">留出更多可能。</span></h2></div><p>一个人的灵感，或一群人的创作。<br>把故事、素材与镜头放在一起，<br>专注让作品走向下一步。</p></div>
+      <div class="scenario-grid"><article class="scenario-card"><span class="scenario-number">01 / SOLO</span><div class="scenario-visual solo-visual" aria-hidden="true"><span>✦</span><i></i><i></i></div><h3>独立创作者</h3><p>用一个工作空间组织剧本、分镜和资产，<br class="desktop-break">让个人创作更有条理。</p></article><article class="scenario-card"><span class="scenario-number">02 / STUDIO</span><div class="scenario-visual studio-visual" aria-hidden="true"><i></i><i></i><i></i><span>↗</span></div><h3>AI 影视工作室</h3><p>集中梳理项目与视觉参考，<br>让分镜与资产之间的关系清楚可见。</p></article><article class="scenario-card"><span class="scenario-number">03 / BRAND</span><div class="scenario-visual brand-visual" aria-hidden="true"><span>Story.</span><i>FRAME 01</i></div><h3>品牌内容团队</h3><p>从品牌故事走向镜头表达，<br>在生成之前，确认内容与视觉方向。</p></article></div>
+    </section>
+
+    <section class="faq section page-container" id="faq" aria-labelledby="faq-title"><div class="faq-heading"><p class="eyebrow">A FEW THINGS TO KNOW</p><h2 id="faq-title">你可能<br><span class="serif-cn">想了解。</span></h2><p>开始创作之前，<br>先把这些问题说清楚。</p></div><div class="faq-list">
+      <details><summary>这个工作台是什么？<span class="faq-toggle" aria-hidden="true"></span></summary><p>这是平安科技的 AI 短剧创作工作台，用于组织剧本、分镜、角色与场景资产，以及后续的视频生成任务。它把多个创作环节串成一条可检查、可推进的流程。</p></details>
+      <details><summary>如何开始第一个项目？<span class="faq-toggle" aria-hidden="true"></span></summary><p>进入工作台后创建项目并上传剧本，依次完成拆分与确认分镜、生成资产图、准备并生成视频。每个阶段先检查内容，再继续下一步。</p></details>
+      <details><summary>支持哪些 AI 模型？<span class="faq-toggle" aria-hidden="true"></span></summary><p>可使用的图像与视频模型取决于工作台中已配置的模型供应商、密钥及对应权限。请以工作台实际提供的选项为准。</p></details>
+      <details><summary>角色如何保持一致？<span class="faq-toggle" aria-hidden="true"></span></summary><p>角色、场景和道具可以作为项目资产保存，并在不同镜头中复用已确认的视觉参考。参考资产有助于统一方向，具体生成效果仍需要逐镜头检查与调整。</p></details>
+      <details><summary>是否会自动完成全部生成？<span class="faq-toggle" aria-hidden="true"></span></summary><p>生成任务需要配置模型，并在检查分镜、资产及准备结果后确认执行。工作台支持分阶段推进创作，并不保证上传剧本后即可自动完成一部短剧。</p></details>
+      <details><summary>手机上能使用吗？<span class="faq-toggle" aria-hidden="true"></span></summary><p>你可以在手机浏览器中访问这个落地页原型。涉及复杂分镜编辑、资产检查与生成配置时，建议使用桌面浏览器，以获得更完整的操作空间。</p></details>
+    </div></section>
+
+    <section class="start-section" id="start" aria-labelledby="start-title"><div class="page-container"><p class="eyebrow">YOUR STORY STARTS HERE</p><h2 id="start-title">下一个好故事。<br><span class="serif-cn">从这里开始。</span></h2><p>给灵感一个空间，让创作一步步发生。当前公开站点展示设计原型。</p><a class="button button-dark" data-workspace-link href="gallery.html" target="_top">查看界面原型 <span aria-hidden="true">↗</span></a><span class="start-star star-one" aria-hidden="true">✦</span><span class="start-star star-two" aria-hidden="true">✦</span></div></section>
+  </main>
+  <footer class="footer page-container"><div><a class="brand footer-brand" href="#home"><img src="assets/pingan-mark.svg" width="30" height="30" alt=""><span>平安科技</span></a><p>让每一个故事，都有下一步。</p></div><nav aria-label="页尾导航"><a href="#features">创作能力</a><a href="#workflow">工作流程</a><a href="#faq">常见问题</a></nav><span class="footer-signature">AI SHORT DRAMA WORKSPACE</span></footer>
+</body>
+</html>

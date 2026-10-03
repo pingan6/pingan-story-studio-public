@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>平安科技 · 设计原型总览</title>
+  <link rel="icon" href="assets/pingan-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body class="gallery-page">
+  <header class="gallery-heading"><a class="gallery-brand" href="landing.html"><img src="assets/pingan-mark.svg" width="36" height="36" alt=""><span>平安科技 <small>AI 短剧创作工作台</small></span></a><div><span class="gallery-kicker">DESIGN PROTOTYPE</span><h1>同一个故事，适配每一块屏幕。</h1><p>桌面、平板与手机原型平铺展示。页面均为独立 HTML，可直接打开并交互。</p></div><a class="gallery-link" href="landing.html">打开完整落地页 <span aria-hidden="true">↗</span></a></header>
+  <main class="gallery-canvas" aria-label="三种屏幕尺寸的设计原型">
+    <section class="preview-card desktop-card"><div class="preview-heading"><h2>桌面</h2><span>1440 px · 完整页面</span></div><div class="preview-stage desktop-stage"><iframe class="preview-frame desktop-frame" data-fluid-preview title="桌面 1440 像素完整落地页原型" src="landing.html" width="1440" height="5000"></iframe></div></section>
+    <section class="preview-card tablet-card"><div class="preview-heading"><h2>平板</h2><span>768 px · 完整页面</span></div><div class="preview-stage tablet-stage"><iframe class="preview-frame tablet-frame" data-fluid-preview title="平板 768 像素完整落地页原型" src="landing.html" width="768" height="6000"></iframe></div></section>
+    <section class="preview-card phone-card"><div class="preview-heading"><h2>iPhone 16 Pro</h2><span>402 × 874 px · 可滚动</span></div><div class="preview-stage phone-stage"><iframe class="preview-frame phone-frame" title="iPhone 16 Pro 手机外框与落地页原型" src="mobile.html" width="414" height="926"></iframe></div><p class="phone-tip">在手机画面内滚动，查看完整页面。<br>状态栏与外框仅用于设计评审。</p></section>
+  </main>
+</body>
+</html>
